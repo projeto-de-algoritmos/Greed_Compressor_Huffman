@@ -76,7 +76,6 @@ class InterfaceGrafica:
         self.constroi_codigo(raiz, '', huffman_codes)
         texto_comprimido = ''.join(huffman_codes[char] for char in text)
 
-        self.saida.delete(1.0, tk.END)
         self.saida.insert(tk.END, texto_comprimido)
 
     def descomprimir(self, entrada):
@@ -115,6 +114,7 @@ class InterfaceGrafica:
                 arvore = data['arvore']
                 texto_comprimido = data['texto_comprimido']
                 self.arvore = arvore
+                self.saida.delete(1.0, tk.END)
                 self.entrada.delete(1.0, tk.END)
                 self.entrada.insert(tk.END, texto_comprimido)
 
