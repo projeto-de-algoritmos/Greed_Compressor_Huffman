@@ -57,12 +57,7 @@ class InterfaceGrafica:
         esquerda = tk.Frame(self.root)
         esquerda.pack(side="top", padx=self.small_pad, pady=self.small_pad, expand=True)
 
-        # direita = ttk.Frame(self.root, height=400, width=650, style="Custom.TFrame")
-        # direita.pack(
-        #     side="right", padx=self.small_pad, pady=self.small_pad, expand=True
-        # )
-
-        return esquerda  # , direita
+        return esquerda
 
     def is_binary_string(self, s):
         for char in s:
