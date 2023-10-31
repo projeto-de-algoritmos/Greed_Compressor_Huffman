@@ -1,45 +1,40 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Compressor Huffman
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
+[Vídeo de apresentação](https://youtu.be/ihqoDbjzobE)
 
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 1<br>
+**Conteúdo da Disciplina**: Greed<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+| Matrícula  | Aluno                        |
+| ---------- | ---------------------------- |
+| 19/0036567 | Pedro Lucas Cassiano Martins |
+| 19/0020814 | Vinícius Roriz               |
+
+## Sobre
+
+O projeto Compressor Huffman é o terceiro trabalho da dupla para a disciplina de Projeto de Algoritmos e remete ao conteúdo de algoritimos ambiciosos (ou greed) abrangendo Interval Partitioning, Interval Scheduling, Knapsack, Huffman, etc.
+O objetivo do projeto é criar uma interface gráfica capaz de receber textos e comprimi-los ou descomprimi-los, contando com a funcionalide de abrir e salvar arquivos. Utilizamos para esse projeto o código de Huffman.
+O algoritmo é capaz de comprimir textos digitados pelo usuários que então é mostrado em uma caixa de texto o texto (comprimido) em binário e também é capaz de fazer o contrário.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+![1](assets/1.png)
+![2](assets/2.png)
+![3](assets/3.png)
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+## Instalação
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+**Linguagem**: Python<br>
 
+##### Execute a main.py
 
+`$ python3 src/main.py`
 
+## Uso
 
+1. Escreva uma mensagem na entrada;
+2. Aperte o botão de comprimir / descomprimir;
+3. Salve a mensagem comprimida em "Salvar";
+4. No botão "Abrir" você pode abrir mensagens comprimidas ou descomprimidas para realizar a operação inversa.
