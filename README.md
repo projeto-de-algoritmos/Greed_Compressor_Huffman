@@ -1,6 +1,6 @@
 # Compressor Huffman
 
-[Vídeo de apresentação](https://youtu.be/ihqoDbjzobE)
+[Vídeo de apresentação](https://youtu.be/4dzhbbMJJco)
 
 **Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Greed<br>
